@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
 
 * Ruby version
+2.5.1
+
 
 * System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+- Install Docker
 
 * Deployment instructions
+1. Install bundler with 'gem install bundler'
+2. Install project gems with 'bundle install'
+3. To start server, run: 'bundler exec rails s'
 
-* ...
