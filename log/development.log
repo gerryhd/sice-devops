@@ -1,0 +1,959 @@
+I, [2021-10-19T21:05:49.680844 #33035]  INFO -- : Started GET "/students?ayy=lmao" for ::1 at 2021-10-19 21:05:49 -0500
+I, [2021-10-19T21:05:49.687814 #33035]  INFO -- : Processing by ApplicationController#students as */*
+I, [2021-10-19T21:05:49.687947 #33035]  INFO -- :   Parameters: {"ayy"=>"lmao"}
+I, [2021-10-19T21:05:57.186350 #33035]  INFO -- : Completed 500 Internal Server Error in 7498ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-19T21:05:57.202051 #33035] FATAL -- :   
+F, [2021-10-19T21:05:57.202569 #33035] FATAL -- : Errno::EACCES (Permission denied @ rb_sysopen - /home/gerardoh/misc/sice/.byebug_history):
+F, [2021-10-19T21:05:57.203032 #33035] FATAL -- :   
+F, [2021-10-19T21:05:57.203472 #33035] FATAL -- : app/controllers/application_controller.rb:26:in `log_headers'
+I, [2021-10-19T21:06:07.281859 #33035]  INFO -- : Started GET "/students?ayy=lmao" for ::1 at 2021-10-19 21:06:07 -0500
+I, [2021-10-19T21:06:07.286851 #33035]  INFO -- : Processing by ApplicationController#students as */*
+I, [2021-10-19T21:06:07.287241 #33035]  INFO -- :   Parameters: {"ayy"=>"lmao"}
+I, [2021-10-19T21:06:21.421389 #33035]  INFO -- : Completed 500 Internal Server Error in 14132ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-19T21:06:21.440709 #33035] FATAL -- :   
+F, [2021-10-19T21:06:21.441867 #33035] FATAL -- : Errno::EACCES (Permission denied @ rb_sysopen - /home/gerardoh/misc/sice/.byebug_history):
+F, [2021-10-19T21:06:21.442733 #33035] FATAL -- :   
+F, [2021-10-19T21:06:21.443809 #33035] FATAL -- : app/controllers/application_controller.rb:26:in `log_headers'
+I, [2021-10-20T02:06:45.659671 #1]  INFO -- : Started GET "/students?ayy=lmao" for 172.17.0.1 at 2021-10-20 02:06:45 +0000
+I, [2021-10-20T02:06:45.670306 #1]  INFO -- : Processing by ApplicationController#students as */*
+I, [2021-10-20T02:06:45.670406 #1]  INFO -- :   Parameters: {"ayy"=>"lmao"}
+I, [2021-10-20T02:06:45.678355 #1]  INFO -- : Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-20T02:06:45.686545 #1] FATAL -- :   
+F, [2021-10-20T02:06:45.686950 #1] FATAL -- : SystemStackError (stack level too deep):
+F, [2021-10-20T02:06:45.687048 #1] FATAL -- :   
+F, [2021-10-20T02:06:45.687234 #1] FATAL -- : app/controllers/application_controller.rb:25:in `log_headers'
+I, [2021-10-20T02:08:07.550731 #1]  INFO -- : Started GET "/students?ayy=lmao" for 172.17.0.1 at 2021-10-20 02:08:07 +0000
+I, [2021-10-20T02:08:07.567897 #1]  INFO -- : Processing by ApplicationController#students as */*
+I, [2021-10-20T02:08:07.568031 #1]  INFO -- :   Parameters: {"ayy"=>"lmao"}
+I, [2021-10-20T02:08:07.766331 #1]  INFO -- : Completed 500 Internal Server Error in 198ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-20T02:08:07.773148 #1] FATAL -- :   
+F, [2021-10-20T02:08:07.773274 #1] FATAL -- : SystemStackError (stack level too deep):
+F, [2021-10-20T02:08:07.773328 #1] FATAL -- :   
+F, [2021-10-20T02:08:07.773384 #1] FATAL -- : app/controllers/application_controller.rb:26:in `log_headers'
+I, [2021-10-20T02:08:22.584245 #1]  INFO -- : Started GET "/students?ayy=lmao" for 172.17.0.1 at 2021-10-20 02:08:22 +0000
+I, [2021-10-20T02:08:22.592306 #1]  INFO -- : Processing by ApplicationController#students as */*
+I, [2021-10-20T02:08:22.592433 #1]  INFO -- :   Parameters: {"ayy"=>"lmao"}
+I, [2021-10-20T02:08:22.777480 #1]  INFO -- : Completed 500 Internal Server Error in 185ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-20T02:08:22.784465 #1] FATAL -- :   
+F, [2021-10-20T02:08:22.784558 #1] FATAL -- : SystemStackError (stack level too deep):
+F, [2021-10-20T02:08:22.784602 #1] FATAL -- :   
+F, [2021-10-20T02:08:22.784655 #1] FATAL -- : app/controllers/application_controller.rb:26:in `log_headers'
+I, [2021-10-20T02:08:41.796990 #1]  INFO -- : Started GET "/students?ayy=lmao" for 172.17.0.1 at 2021-10-20 02:08:41 +0000
+I, [2021-10-20T02:08:41.802598 #1]  INFO -- : Processing by ApplicationController#students as */*
+I, [2021-10-20T02:08:41.802750 #1]  INFO -- :   Parameters: {"ayy"=>"lmao"}
+I, [2021-10-20T02:08:41.972731 #1]  INFO -- : Completed 500 Internal Server Error in 170ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-20T02:08:41.996374 #1] FATAL -- :   
+F, [2021-10-20T02:08:41.996661 #1] FATAL -- : SystemStackError (stack level too deep):
+F, [2021-10-20T02:08:41.996713 #1] FATAL -- :   
+F, [2021-10-20T02:08:41.996774 #1] FATAL -- : app/controllers/application_controller.rb:26:in `log_headers'
+I, [2021-10-20T02:08:59.283440 #1]  INFO -- : Started GET "/students?ayy=lmao" for 172.17.0.1 at 2021-10-20 02:08:59 +0000
+I, [2021-10-20T02:08:59.290511 #1]  INFO -- : Processing by ApplicationController#students as */*
+I, [2021-10-20T02:08:59.290622 #1]  INFO -- :   Parameters: {"ayy"=>"lmao"}
+I, [2021-10-20T02:08:59.459131 #1]  INFO -- : Headers: #<ActionDispatch::Http::Headers:0x00007f7a208cb058>
+I, [2021-10-20T02:08:59.459602 #1]  INFO -- : Completed 200 OK in 169ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+I, [2021-10-19T21:09:28.027461 #34174]  INFO -- : Started GET "/students?ayy=lmao" for ::1 at 2021-10-19 21:09:28 -0500
+I, [2021-10-19T21:09:28.031961 #34174]  INFO -- : Processing by ApplicationController#students as */*
+I, [2021-10-19T21:09:28.032078 #34174]  INFO -- :   Parameters: {"ayy"=>"lmao"}
+I, [2021-10-19T21:09:28.032189 #34174]  INFO -- : Headers: #<ActionDispatch::Http::Headers:0x00007f28ec874be8>
+I, [2021-10-19T21:09:28.032546 #34174]  INFO -- : Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+I, [2021-10-19T21:09:36.197192 #34174]  INFO -- : Started GET "/students?ayy=lmao" for ::1 at 2021-10-19 21:09:36 -0500
+I, [2021-10-19T21:09:36.207513 #34174]  INFO -- : Processing by ApplicationController#students as */*
+I, [2021-10-19T21:09:36.207615 #34174]  INFO -- :   Parameters: {"ayy"=>"lmao"}
+I, [2021-10-19T21:12:31.783931 #34174]  INFO -- : Completed 500 Internal Server Error in 175576ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-19T21:12:31.785989 #34174] FATAL -- :   
+F, [2021-10-19T21:12:31.786240 #34174] FATAL -- : Errno::EACCES (Permission denied @ rb_sysopen - /home/gerardoh/misc/sice/.byebug_history):
+F, [2021-10-19T21:12:31.786417 #34174] FATAL -- :   
+F, [2021-10-19T21:12:31.786601 #34174] FATAL -- : app/controllers/application_controller.rb:26:in `log_headers'
+I, [2021-10-20T02:13:05.133162 #1]  INFO -- : Started GET "/students?ayy=lmao" for 172.17.0.1 at 2021-10-20 02:13:05 +0000
+I, [2021-10-20T02:13:05.139444 #1]  INFO -- : Processing by ApplicationController#students as */*
+I, [2021-10-20T02:13:05.139557 #1]  INFO -- :   Parameters: {"ayy"=>"lmao"}
+I, [2021-10-20T02:13:05.318348 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"ayy=lmao", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"GET", "HTTP_VERSION"=>"HTTP/1.1", "HTTP_SPECIAL"=>"k", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"5259ffa4-5eba-4aab-a7e2-0de8c53e1927", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/students", "REMOTE_ADDR"=>"172.17.0.1"}
+I, [2021-10-20T02:13:05.319263 #1]  INFO -- : Completed 200 OK in 180ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+I, [2021-10-20T02:13:21.474314 #1]  INFO -- : Started GET "/students?ayy=lmao" for 172.17.0.1 at 2021-10-20 02:13:21 +0000
+I, [2021-10-20T02:13:21.483052 #1]  INFO -- : Processing by ApplicationController#students as */*
+I, [2021-10-20T02:13:21.483191 #1]  INFO -- :   Parameters: {"ayy"=>"lmao"}
+I, [2021-10-20T02:13:21.483437 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"ayy=lmao", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"GET", "HTTP_VERSION"=>"HTTP/1.1", "HTTP_SPECIAL"=>"k", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"87b81b8c-1d13-4fbb-85b3-eea8a824b85e", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/students", "REMOTE_ADDR"=>"172.17.0.1"}
+I, [2021-10-20T02:13:21.483906 #1]  INFO -- : Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+I, [2021-10-20T02:14:34.300805 #1]  INFO -- : Started GET "/students?ayy=lmao" for 172.17.0.1 at 2021-10-20 02:14:34 +0000
+I, [2021-10-20T02:14:34.317534 #1]  INFO -- : Processing by ApplicationController#students as */*
+I, [2021-10-20T02:14:34.317673 #1]  INFO -- :   Parameters: {"ayy"=>"lmao"}
+I, [2021-10-20T02:14:34.318056 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"ayy=lmao", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"GET", "HTTP_VERSION"=>"HTTP/1.1", "HTTP_SPECIAL"=>"k", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"b531ce5c-0030-42dc-bf42-54a108209237", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/students", "REMOTE_ADDR"=>"172.17.0.1"}
+I, [2021-10-20T02:14:34.318433 #1]  INFO -- : #<Puma::NullIO:0x0000561f7f591740>
+I, [2021-10-20T02:14:34.319167 #1]  INFO -- : Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+I, [2021-10-19T21:14:57.189059 #35226]  INFO -- : Started GET "/students?ayy=lmao" for ::1 at 2021-10-19 21:14:57 -0500
+I, [2021-10-19T21:14:57.193962 #35226]  INFO -- : Processing by ApplicationController#students as */*
+I, [2021-10-19T21:14:57.194041 #35226]  INFO -- :   Parameters: {"ayy"=>"lmao"}
+I, [2021-10-19T21:14:57.194195 #35226]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"ayy=lmao", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"GET", "HTTP_VERSION"=>"HTTP/1.1", "HTTP_SPECIAL"=>"k", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"43a9c1eb-0634-4824-95fd-6b50639697cf", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/students", "REMOTE_ADDR"=>"::1"}
+I, [2021-10-19T21:17:53.616349 #36132]  INFO -- : Started GET "/students?ayy=lmao" for ::1 at 2021-10-19 21:17:53 -0500
+I, [2021-10-19T21:17:53.621061 #36132]  INFO -- : Processing by ApplicationController#students as */*
+I, [2021-10-19T21:17:53.621165 #36132]  INFO -- :   Parameters: {"ayy"=>"lmao"}
+I, [2021-10-19T21:17:53.621371 #36132]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"ayy=lmao", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"GET", "HTTP_VERSION"=>"HTTP/1.1", "HTTP_SPECIAL"=>"k", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"6bd52883-63e8-49fa-a49d-6843d5780d45", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/students", "REMOTE_ADDR"=>"::1"}
+I, [2021-10-19T21:18:03.474356 #36132]  INFO -- : #<Puma::NullIO:0x000056182ed312c8>
+I, [2021-10-19T21:18:03.476118 #36132]  INFO -- : Completed 200 OK in 9855ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+I, [2021-10-19T21:18:42.150791 #36132]  INFO -- : Started POST "/create" for ::1 at 2021-10-19 21:18:42 -0500
+I, [2021-10-19T21:18:42.152948 #36132]  INFO -- : Processing by ApplicationController#create as */*
+I, [2021-10-19T21:18:42.153084 #36132]  INFO -- :   Parameters: {"message"=>"Hello body", "application"=>{"message"=>"Hello body"}}
+I, [2021-10-19T21:18:42.153394 #36132]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"5245b511-f2a9-441c-8f7d-ba278264995a", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"31", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/create", "REMOTE_ADDR"=>"::1"}
+I, [2021-10-19T21:18:49.823210 #36132]  INFO -- : #<StringIO:0x00007f8e7017ca18>
+I, [2021-10-19T21:18:49.824157 #36132]  INFO -- : Completed 204 No Content in 7671ms (ActiveRecord: 0.0ms)
+
+
+I, [2021-10-20T02:19:36.909881 #1]  INFO -- : Started POST "/create" for 172.17.0.1 at 2021-10-20 02:19:36 +0000
+I, [2021-10-20T02:19:36.957280 #1]  INFO -- : Processing by ApplicationController#create as */*
+I, [2021-10-20T02:19:36.957418 #1]  INFO -- :   Parameters: {"message"=>"Hello body", "application"=>{"message"=>"Hello body"}}
+I, [2021-10-20T02:19:36.957686 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"a09f905e-8004-4f5e-9ea8-916764ab80bf", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"31", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/create", "REMOTE_ADDR"=>"172.17.0.1"}
+I, [2021-10-20T02:19:36.957921 #1]  INFO -- : Body: {
+    "message": "Hello body"
+}
+I, [2021-10-20T02:19:36.958139 #1]  INFO -- : Completed 204 No Content in 1ms (ActiveRecord: 0.0ms)
+
+
+I, [2021-10-20T02:21:11.359442 #1]  INFO -- : Started POST "/create" for 172.17.0.1 at 2021-10-20 02:21:11 +0000
+I, [2021-10-20T02:21:11.380746 #1]  INFO -- : Processing by ApplicationController#create as */*
+I, [2021-10-20T02:21:11.380941 #1]  INFO -- :   Parameters: {"message"=>"Hello body", "application"=>{"message"=>"Hello body"}}
+I, [2021-10-20T02:21:11.381404 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"6c7b1afd-94ef-4df4-b1d1-e0f092d9ce9d", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"31", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/create", "REMOTE_ADDR"=>"172.17.0.1"}
+I, [2021-10-20T02:21:11.381687 #1]  INFO -- : Body: {
+    "message": "Hello body"
+}
+I, [2021-10-20T02:21:11.382079 #1]  INFO -- : Completed 204 No Content in 1ms (ActiveRecord: 0.0ms)
+
+
+I, [2021-10-20T02:22:23.492666 #1]  INFO -- : Started POST "/create" for 172.17.0.1 at 2021-10-20 02:22:23 +0000
+I, [2021-10-20T02:22:23.512082 #1]  INFO -- : Processing by ApplicationController#create as */*
+I, [2021-10-20T02:22:23.512329 #1]  INFO -- :   Parameters: {"message"=>"Hello body", "application"=>{"message"=>"Hello body"}}
+I, [2021-10-20T02:22:23.513018 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"6c6c33da-d552-47ba-a4a8-f9453c97f728", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"31", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/create", "REMOTE_ADDR"=>"172.17.0.1"}
+I, [2021-10-20T02:22:23.587583 #1]  INFO -- : Completed 500 Internal Server Error in 75ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-20T02:22:23.589170 #1] FATAL -- :   
+F, [2021-10-20T02:22:23.646072 #1] FATAL -- : NameError (undefined local variable or method `action' for #<ApplicationController:0x000055b490d460a8>):
+F, [2021-10-20T02:22:23.646292 #1] FATAL -- :   
+F, [2021-10-20T02:22:23.646455 #1] FATAL -- : app/controllers/application_controller.rb:45:in `debug_log_method'
+I, [2021-10-20T02:22:36.135640 #1]  INFO -- : Started POST "/create" for 172.17.0.1 at 2021-10-20 02:22:36 +0000
+I, [2021-10-20T02:22:36.150079 #1]  INFO -- : Processing by ApplicationController#create as */*
+I, [2021-10-20T02:22:36.150232 #1]  INFO -- :   Parameters: {"message"=>"Hello body", "application"=>{"message"=>"Hello body"}}
+I, [2021-10-20T02:22:36.150776 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"7fc01687-baad-473c-b581-ec36a1a9185a", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"31", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/create", "REMOTE_ADDR"=>"172.17.0.1"}
+D, [2021-10-20T02:22:36.150893 #1] DEBUG -- : application => create
+I, [2021-10-20T02:22:36.151114 #1]  INFO -- : Body: {
+    "message": "Hello body"
+}
+I, [2021-10-20T02:22:36.151338 #1]  INFO -- : Completed 204 No Content in 1ms (ActiveRecord: 0.0ms)
+
+
+I, [2021-10-20T02:23:00.555510 #1]  INFO -- : Started POST "/create" for 172.17.0.1 at 2021-10-20 02:23:00 +0000
+I, [2021-10-20T02:23:00.556503 #1]  INFO -- : Processing by ApplicationController#create as */*
+I, [2021-10-20T02:23:00.556584 #1]  INFO -- :   Parameters: {"message"=>"Hello body", "application"=>{"message"=>"Hello body"}}
+I, [2021-10-20T02:23:00.556774 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"ca9a837d-9f7d-44f4-8803-55d3bd8cc1d7", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"31", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/create", "REMOTE_ADDR"=>"172.17.0.1"}
+D, [2021-10-20T02:23:00.556851 #1] DEBUG -- : application => create
+I, [2021-10-20T02:23:00.556980 #1]  INFO -- : Body: {
+    "message": "Hello body"
+}
+I, [2021-10-20T02:23:00.557127 #1]  INFO -- : Completed 204 No Content in 0ms (ActiveRecord: 0.0ms)
+
+
+I, [2021-10-20T02:28:01.852382 #1]  INFO -- : Started POST "/create" for 172.17.0.1 at 2021-10-20 02:28:01 +0000
+I, [2021-10-20T02:28:01.870456 #1]  INFO -- : Processing by ApplicationController#create as */*
+I, [2021-10-20T02:28:01.870557 #1]  INFO -- :   Parameters: {"message"=>"Hello body", "application"=>{"message"=>"Hello body"}}
+D, [2021-10-20T02:28:01.870696 #1] DEBUG -- : Method called: log_headers
+I, [2021-10-20T02:28:01.870869 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"a25aa820-5847-4450-8e73-e2743ff493e8", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"31", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/create", "REMOTE_ADDR"=>"172.17.0.1"}
+I, [2021-10-20T02:28:01.911354 #1]  INFO -- : Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-20T02:28:01.912339 #1] FATAL -- :   
+F, [2021-10-20T02:28:01.945571 #1] FATAL -- : NoMethodError (undefined method `debug_log_method' for #<ApplicationController:0x000055b491190550>):
+F, [2021-10-20T02:28:01.945684 #1] FATAL -- :   
+F, [2021-10-20T02:28:01.945749 #1] FATAL -- : activesupport (5.2.6) lib/active_support/callbacks.rb:426:in `block in make_lambda'
+activesupport (5.2.6) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (5.2.6) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.2.6) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (5.2.6) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (5.2.6) lib/active_support/callbacks.rb:513:in `each'
+activesupport (5.2.6) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (5.2.6) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.2.6) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.6) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.6) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.6) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.6) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.6) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.6) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.6) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.6) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.6) lib/abstract_controller/base.rb:134:in `process'
+actionpack (5.2.6) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.6) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+activerecord (5.2.6) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2021-10-20T02:28:18.327988 #1]  INFO -- : Started POST "/create" for 172.17.0.1 at 2021-10-20 02:28:18 +0000
+I, [2021-10-20T02:28:18.336562 #1]  INFO -- : Processing by ApplicationController#create as */*
+I, [2021-10-20T02:28:18.336661 #1]  INFO -- :   Parameters: {"message"=>"Hello body", "application"=>{"message"=>"Hello body"}}
+I, [2021-10-20T02:28:18.336848 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"09196291-8c4b-4962-be3f-c8283dd4613b", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"31", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/create", "REMOTE_ADDR"=>"172.17.0.1"}
+I, [2021-10-20T02:28:18.337001 #1]  INFO -- : Body: {
+    "message": "Hello body"
+}
+I, [2021-10-20T02:28:18.337204 #1]  INFO -- : Completed 204 No Content in 0ms (ActiveRecord: 0.0ms)
+
+
+I, [2021-10-20T02:28:39.499387 #1]  INFO -- : Started POST "/create" for 172.17.0.1 at 2021-10-20 02:28:39 +0000
+I, [2021-10-20T02:28:39.530351 #1]  INFO -- : Processing by ApplicationController#create as */*
+I, [2021-10-20T02:28:39.530753 #1]  INFO -- :   Parameters: {"message"=>"Hello body", "application"=>{"message"=>"Hello body"}}
+I, [2021-10-20T02:28:39.531367 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"0266b6d6-c5e4-4f1e-86d2-6f2d9d0f18b8", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"31", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/create", "REMOTE_ADDR"=>"172.17.0.1"}
+I, [2021-10-20T02:28:39.531911 #1]  INFO -- : Body: {
+    "message": "Hello body"
+}
+I, [2021-10-20T02:28:39.532180 #1]  INFO -- : Completed 204 No Content in 1ms (ActiveRecord: 0.0ms)
+
+
+I, [2021-10-20T02:28:52.383441 #1]  INFO -- : Started GET "/students?ayy=lmao" for 172.17.0.1 at 2021-10-20 02:28:52 +0000
+I, [2021-10-20T02:28:52.384016 #1]  INFO -- : Processing by ApplicationController#students as */*
+I, [2021-10-20T02:28:52.384085 #1]  INFO -- :   Parameters: {"ayy"=>"lmao"}
+I, [2021-10-20T02:28:52.384237 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"ayy=lmao", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"GET", "HTTP_VERSION"=>"HTTP/1.1", "HTTP_SPECIAL"=>"k", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"72bff7e0-8c17-4e47-972d-fa20d04457e4", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/students", "REMOTE_ADDR"=>"172.17.0.1"}
+I, [2021-10-20T02:28:52.384348 #1]  INFO -- : Body: 
+D, [2021-10-20T02:28:52.384419 #1] DEBUG -- : Method called: hardcoded_student, parameters: ["Luis Gerardo Hernandez Quijano", "14016254"]
+D, [2021-10-20T02:28:52.384512 #1] DEBUG -- : Method called: hardcoded_student, parameters: ["Suheily Edith Pergola Sanchez", "10006848"]
+D, [2021-10-20T02:28:52.384587 #1] DEBUG -- : Method called: hardcoded_student, parameters: ["Ryan McGeez", "77777777"]
+D, [2021-10-20T02:28:52.384658 #1] DEBUG -- : Method called: hardcoded_student, parameters: ["Jordan Hashbrown", "12121010"]
+I, [2021-10-20T02:28:52.385021 #1]  INFO -- : Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+I, [2021-10-20T02:30:49.920535 #1]  INFO -- : Started POST "/create" for 172.17.0.1 at 2021-10-20 02:30:49 +0000
+I, [2021-10-20T02:30:49.937233 #1]  INFO -- : Processing by ApplicationController#create as */*
+I, [2021-10-20T02:30:49.937374 #1]  INFO -- :   Parameters: {"message"=>"Hello body", "application"=>{"message"=>"Hello body"}}
+I, [2021-10-20T02:30:49.937810 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"79745bbc-e275-47dc-bc34-114858f78611", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"31", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/create", "REMOTE_ADDR"=>"172.17.0.1"}
+I, [2021-10-20T02:30:49.938531 #1]  INFO -- : Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-20T02:30:49.939316 #1] FATAL -- :   
+F, [2021-10-20T02:30:49.939572 #1] FATAL -- : ActionController::ParameterMissing (param is missing or the value is empty: student):
+F, [2021-10-20T02:30:49.939659 #1] FATAL -- :   
+F, [2021-10-20T02:30:49.939769 #1] FATAL -- : app/controllers/application_controller.rb:44:in `student_params'
+app/controllers/application_controller.rb:19:in `create'
+I, [2021-10-20T02:31:48.617489 #1]  INFO -- : Started POST "/create" for 172.17.0.1 at 2021-10-20 02:31:48 +0000
+I, [2021-10-20T02:31:48.618312 #1]  INFO -- : Processing by ApplicationController#create as */*
+I, [2021-10-20T02:31:48.618409 #1]  INFO -- :   Parameters: {"student"=>{"name"=>"Scott Pilgrim", "folio"=>"13378008"}, "application"=>{"student"=>{"name"=>"Scott Pilgrim", "folio"=>"13378008"}}}
+I, [2021-10-20T02:31:48.618622 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"23b10d63-df9c-4ac3-9103-4749a730a415", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"87", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/create", "REMOTE_ADDR"=>"172.17.0.1"}
+I, [2021-10-20T02:31:48.618986 #1]  INFO -- : Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-20T02:31:48.619395 #1] FATAL -- :   
+F, [2021-10-20T02:31:48.619477 #1] FATAL -- : NoMethodError (undefined method `map' for #<ActionController::Parameters:0x000055b490d2bdc0>):
+F, [2021-10-20T02:31:48.619535 #1] FATAL -- :   
+F, [2021-10-20T02:31:48.619599 #1] FATAL -- : app/controllers/application_controller.rb:19:in `create'
+I, [2021-10-20T02:32:26.667345 #1]  INFO -- : Started POST "/create" for 172.17.0.1 at 2021-10-20 02:32:26 +0000
+I, [2021-10-20T02:32:26.683399 #1]  INFO -- : Processing by ApplicationController#create as */*
+I, [2021-10-20T02:32:26.683546 #1]  INFO -- :   Parameters: {"student"=>{"name"=>"Scott Pilgrim", "folio"=>"13378008"}, "application"=>{"student"=>{"name"=>"Scott Pilgrim", "folio"=>"13378008"}}}
+I, [2021-10-20T02:32:26.683891 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"b1c01623-850e-426c-9a04-07cc6bf2b91e", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"87", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/create", "REMOTE_ADDR"=>"172.17.0.1"}
+I, [2021-10-20T02:32:26.684374 #1]  INFO -- : Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-20T02:32:26.684833 #1] FATAL -- :   
+F, [2021-10-20T02:32:26.684926 #1] FATAL -- : NoMethodError (undefined method `to_a' for #<ActionController::Parameters:0x000055b49047ceb8>):
+F, [2021-10-20T02:32:26.684981 #1] FATAL -- :   
+F, [2021-10-20T02:32:26.685077 #1] FATAL -- : app/controllers/application_controller.rb:19:in `create'
+I, [2021-10-20T02:32:57.116824 #1]  INFO -- : Started POST "/create" for 172.17.0.1 at 2021-10-20 02:32:57 +0000
+I, [2021-10-20T02:32:57.130043 #1]  INFO -- : Processing by ApplicationController#create as */*
+I, [2021-10-20T02:32:57.130163 #1]  INFO -- :   Parameters: {"student"=>{"name"=>"Scott Pilgrim", "folio"=>"13378008"}, "application"=>{"student"=>{"name"=>"Scott Pilgrim", "folio"=>"13378008"}}}
+I, [2021-10-20T02:32:57.130393 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"a2ecbea1-ec4f-4d71-8f7f-b8d2ccb7b022", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"87", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/create", "REMOTE_ADDR"=>"172.17.0.1"}
+D, [2021-10-20T02:32:57.130659 #1] DEBUG -- : Method called: hardcoded_student, parameters: [["Scott Pilgrim", "13378008"]]
+I, [2021-10-20T02:32:57.134359 #1]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+I, [2021-10-19T21:33:38.256241 #37216]  INFO -- : Started POST "/create" for ::1 at 2021-10-19 21:33:38 -0500
+I, [2021-10-19T21:33:38.295585 #37216]  INFO -- : Processing by ApplicationController#create as */*
+I, [2021-10-19T21:33:38.295693 #37216]  INFO -- :   Parameters: {"student"=>{"name"=>"Scott Pilgrim", "folio"=>"13378008"}, "application"=>{"student"=>{"name"=>"Scott Pilgrim", "folio"=>"13378008"}}}
+I, [2021-10-19T21:33:38.295863 #37216]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"598c04a1-7951-4711-adfc-cc7c45c9d8e0", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"87", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/create", "REMOTE_ADDR"=>"::1"}
+D, [2021-10-19T21:34:05.734481 #37216] DEBUG -- : Method called: hardcoded_student, parameters: [["Scott Pilgrim", "13378008"]]
+I, [2021-10-19T21:34:05.736454 #37216]  INFO -- : Completed 200 OK in 27441ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+I, [2021-10-19T21:35:12.997221 #37216]  INFO -- : Started POST "/create" for ::1 at 2021-10-19 21:35:12 -0500
+I, [2021-10-19T21:35:13.026702 #37216]  INFO -- : Processing by ApplicationController#create as */*
+I, [2021-10-19T21:35:13.026895 #37216]  INFO -- :   Parameters: {"student"=>{"name"=>"Scott Pilgrim", "folio"=>"13378008"}, "application"=>{"student"=>{"name"=>"Scott Pilgrim", "folio"=>"13378008"}}}
+I, [2021-10-19T21:35:13.027333 #37216]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"e401228f-d5b2-4d89-8dc1-b1f4e48239ec", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"87", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/create", "REMOTE_ADDR"=>"::1"}
+D, [2021-10-19T21:35:13.027756 #37216] DEBUG -- : Method called: student_params, parameters: none
+D, [2021-10-19T21:35:13.028122 #37216] DEBUG -- : Method called: student_params, parameters: none
+D, [2021-10-19T21:35:13.028315 #37216] DEBUG -- : Method called: hardcoded_student, parameters: ["Scott Pilgrim", "13378008"]
+I, [2021-10-19T21:35:13.028790 #37216]  INFO -- : Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+I, [2021-10-20T02:46:23.935869 #1]  INFO -- : Started POST "/create" for 172.17.0.1 at 2021-10-20 02:46:23 +0000
+F, [2021-10-20T02:46:23.960761 #1] FATAL -- :   
+F, [2021-10-20T02:46:23.961134 #1] FATAL -- : ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+F, [2021-10-20T02:46:23.961244 #1] FATAL -- :   
+F, [2021-10-20T02:46:23.961364 #1] FATAL -- : activerecord (5.2.6) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2021-10-20T02:47:25.665538 #1]  INFO -- : Started POST "/create" for 172.17.0.1 at 2021-10-20 02:47:25 +0000
+F, [2021-10-20T02:47:25.687313 #1] FATAL -- :   
+F, [2021-10-20T02:47:25.687415 #1] FATAL -- : ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+F, [2021-10-20T02:47:25.687462 #1] FATAL -- :   
+F, [2021-10-20T02:47:25.687536 #1] FATAL -- : activerecord (5.2.6) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2021-10-20T02:47:46.511616 #1]  INFO -- : Started POST "/create" for 172.17.0.1 at 2021-10-20 02:47:46 +0000
+F, [2021-10-20T02:47:46.534267 #1] FATAL -- :   
+F, [2021-10-20T02:47:46.534381 #1] FATAL -- : ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+F, [2021-10-20T02:47:46.534430 #1] FATAL -- :   
+F, [2021-10-20T02:47:46.534512 #1] FATAL -- : activerecord (5.2.6) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+D, [2021-10-20T02:51:58.773545 #1] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+D, [2021-10-20T02:51:58.778996 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:51:58.784452 #1] DEBUG -- :   [1m[35m (5.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+D, [2021-10-20T02:51:58.784559 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:51:58.790100 #1] DEBUG -- :   [1m[35m (4.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+D, [2021-10-20T02:51:58.790196 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:51:58.795388 #1] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2021-10-20T02:51:58.795493 #1] DEBUG -- :   ↳ bin/rails:9
+I, [2021-10-20T02:51:58.795579 #1]  INFO -- : Migrating to CreateUsers (20211020024237)
+D, [2021-10-20T02:51:58.796576 #1] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2021-10-20T02:51:58.796670 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:51:58.797170 #1] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "folio" varchar, "phone" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+D, [2021-10-20T02:51:58.797277 #1] DEBUG -- :   ↳ db/migrate/20211020024237_create_users.rb:3
+D, [2021-10-20T02:51:58.798801 #1] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20211020024237"]]
+D, [2021-10-20T02:51:58.798947 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:51:58.803849 #1] DEBUG -- :   [1m[35m (4.8ms)[0m  [1m[36mcommit transaction[0m
+D, [2021-10-20T02:51:58.803970 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:51:58.805303 #1] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2021-10-20T02:51:58.805411 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:51:58.808252 #1] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2021-10-20T02:51:58.808375 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:51:58.808993 #1] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-10-20 02:51:58.808529"], ["updated_at", "2021-10-20 02:51:58.808529"]]
+D, [2021-10-20T02:51:58.809121 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:51:58.812565 #1] DEBUG -- :   [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+D, [2021-10-20T02:51:58.812671 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:51:58.813347 #1] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2021-10-20T02:51:58.813471 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:52:04.420047 #1] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2021-10-20T02:52:04.420217 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:52:04.421499 #1] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2021-10-20T02:52:04.421591 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:52:04.424342 #1] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2021-10-20T02:52:04.424434 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:52:04.424899 #1] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+D, [2021-10-20T02:52:04.424993 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:52:04.425512 #1] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2021-10-20T02:52:04.425611 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:52:37.548903 #1] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2021-10-20T02:52:37.549086 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:52:37.550415 #1] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2021-10-20T02:52:37.550529 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:52:37.553348 #1] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2021-10-20T02:52:37.553461 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:52:37.553978 #1] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+D, [2021-10-20T02:52:37.554078 #1] DEBUG -- :   ↳ bin/rails:9
+D, [2021-10-20T02:52:37.554640 #1] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2021-10-20T02:52:37.554753 #1] DEBUG -- :   ↳ bin/rails:9
+I, [2021-10-20T02:52:59.402228 #1]  INFO -- : Started POST "/create" for 172.17.0.1 at 2021-10-20 02:52:59 +0000
+D, [2021-10-20T02:52:59.427375 #1] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2021-10-20T02:52:59.427552 #1] DEBUG -- :   ↳ /usr/local/bundle/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+F, [2021-10-20T02:52:59.470737 #1] FATAL -- :   
+F, [2021-10-20T02:52:59.470982 #1] FATAL -- : AbstractController::ActionNotFound (The action 'create' could not be found for ApplicationController):
+F, [2021-10-20T02:52:59.471076 #1] FATAL -- :   
+F, [2021-10-20T02:52:59.471204 #1] FATAL -- : actionpack (5.2.6) lib/abstract_controller/base.rb:129:in `process'
+actionpack (5.2.6) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.6) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+activerecord (5.2.6) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2021-10-20T02:53:10.464272 #1]  INFO -- : Started GET "/users" for 172.17.0.1 at 2021-10-20 02:53:10 +0000
+I, [2021-10-20T02:53:10.471050 #1]  INFO -- : Processing by UsersController#index as */*
+I, [2021-10-20T02:53:10.471301 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"GET", "HTTP_VERSION"=>"HTTP/1.1", "HTTP_SPECIAL"=>"k", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"4272a7a1-24b0-4ee3-843c-a04dab354303", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"172.17.0.1"}
+I, [2021-10-20T02:53:10.471387 #1]  INFO -- : Body: 
+D, [2021-10-20T02:53:10.473666 #1] DEBUG -- :   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+D, [2021-10-20T02:53:10.473806 #1] DEBUG -- :   ↳ app/controllers/users_controller.rb:10
+I, [2021-10-20T02:53:10.474580 #1]  INFO -- : Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.7ms)
+
+
+I, [2021-10-20T02:54:08.509715 #1]  INFO -- : Started POST "/users/create" for 172.17.0.1 at 2021-10-20 02:54:08 +0000
+F, [2021-10-20T02:54:08.525014 #1] FATAL -- :   
+F, [2021-10-20T02:54:08.525127 #1] FATAL -- : ActionController::RoutingError (No route matches [POST] "/users/create"):
+F, [2021-10-20T02:54:08.525229 #1] FATAL -- :   
+F, [2021-10-20T02:54:08.525317 #1] FATAL -- : actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2021-10-20T02:54:14.446664 #1]  INFO -- : Started POST "/users" for 172.17.0.1 at 2021-10-20 02:54:14 +0000
+I, [2021-10-20T02:54:14.451554 #1]  INFO -- : Processing by UsersController#create as */*
+I, [2021-10-20T02:54:14.451718 #1]  INFO -- :   Parameters: {"student"=>{"name"=>"Scott Pilgrim", "folio"=>"13378008"}, "user"=>{}}
+I, [2021-10-20T02:54:14.452134 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"fd2fe7e6-d537-4274-959d-7b77d6e5b21e", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"87", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"172.17.0.1"}
+I, [2021-10-20T02:54:14.452256 #1]  INFO -- : Body: {
+    "student": {
+        "name": "Scott Pilgrim",
+        "folio": "13378008"
+    }
+}
+D, [2021-10-20T02:54:14.452502 #1] DEBUG -- : Method called: user_params, parameters: none
+I, [2021-10-20T02:54:14.452850 #1]  INFO -- : Completed 400 Bad Request in 1ms (ActiveRecord: 0.5ms)
+
+
+F, [2021-10-20T02:54:14.453437 #1] FATAL -- :   
+F, [2021-10-20T02:54:14.453532 #1] FATAL -- : ActionController::ParameterMissing (param is missing or the value is empty: user):
+F, [2021-10-20T02:54:14.453640 #1] FATAL -- :   
+F, [2021-10-20T02:54:14.453759 #1] FATAL -- : app/controllers/users_controller.rb:53:in `user_params'
+app/controllers/users_controller.rb:20:in `create'
+I, [2021-10-20T02:54:22.280814 #1]  INFO -- : Started POST "/users" for 172.17.0.1 at 2021-10-20 02:54:22 +0000
+I, [2021-10-20T02:54:22.281453 #1]  INFO -- : Processing by UsersController#create as */*
+I, [2021-10-20T02:54:22.281521 #1]  INFO -- :   Parameters: {"user"=>{"name"=>"Scott Pilgrim", "folio"=>"13378008"}}
+I, [2021-10-20T02:54:22.281669 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"842527c6-a875-4282-8bce-2da62a644d17", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"84", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"172.17.0.1"}
+I, [2021-10-20T02:54:22.281733 #1]  INFO -- : Body: {
+    "user": {
+        "name": "Scott Pilgrim",
+        "folio": "13378008"
+    }
+}
+D, [2021-10-20T02:54:22.281824 #1] DEBUG -- : Method called: user_params, parameters: none
+D, [2021-10-20T02:54:22.286300 #1] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2021-10-20T02:54:22.286412 #1] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+D, [2021-10-20T02:54:22.287627 #1] DEBUG -- :   [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "folio", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Scott Pilgrim"], ["folio", "13378008"], ["created_at", "2021-10-20 02:54:22.286542"], ["updated_at", "2021-10-20 02:54:22.286542"]]
+D, [2021-10-20T02:54:22.287879 #1] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+D, [2021-10-20T02:54:22.296932 #1] DEBUG -- :   [1m[35m (8.7ms)[0m  [1m[36mcommit transaction[0m
+D, [2021-10-20T02:54:22.297362 #1] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+I, [2021-10-20T02:54:22.302069 #1]  INFO -- : Completed 201 Created in 20ms (Views: 2.1ms | ActiveRecord: 9.6ms)
+
+
+I, [2021-10-20T02:56:20.119619 #1]  INFO -- : Started POST "/users" for 172.17.0.1 at 2021-10-20 02:56:20 +0000
+I, [2021-10-20T02:56:20.120815 #1]  INFO -- : Processing by UsersController#create as */*
+I, [2021-10-20T02:56:20.120976 #1]  INFO -- :   Parameters: {"user"=>{"name"=>"Gerry Hernandez", "folio"=>"23021996"}}
+I, [2021-10-20T02:56:20.121325 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"7bfbc8f5-a193-4000-a6f8-db855dc91af8", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"86", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"172.17.0.1"}
+I, [2021-10-20T02:56:20.121472 #1]  INFO -- : Body: {
+    "user": {
+        "name": "Gerry Hernandez",
+        "folio": "23021996"
+    }
+}
+D, [2021-10-20T02:56:20.121674 #1] DEBUG -- : Method called: user_params, parameters: none
+D, [2021-10-20T02:56:20.122490 #1] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2021-10-20T02:56:20.122696 #1] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+D, [2021-10-20T02:56:20.123973 #1] DEBUG -- :   [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "folio", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Gerry Hernandez"], ["folio", "23021996"], ["created_at", "2021-10-20 02:56:20.122899"], ["updated_at", "2021-10-20 02:56:20.122899"]]
+D, [2021-10-20T02:56:20.125009 #1] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+D, [2021-10-20T02:56:20.133535 #1] DEBUG -- :   [1m[35m (8.1ms)[0m  [1m[36mcommit transaction[0m
+D, [2021-10-20T02:56:20.134338 #1] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+I, [2021-10-20T02:56:20.135099 #1]  INFO -- : Completed 201 Created in 14ms (Views: 0.5ms | ActiveRecord: 8.5ms)
+
+
+I, [2021-10-20T02:57:01.555078 #1]  INFO -- : Started POST "/users" for 172.17.0.1 at 2021-10-20 02:57:01 +0000
+D, [2021-10-20T02:57:01.576707 #1] DEBUG -- : Error occurred while parsing request parameters.
+Contents:
+
+{
+    "user": {
+        "name": "Gerry Hernandez",
+        "folio": "23021996"
+        "phone:
+    }
+}
+F, [2021-10-20T02:57:01.577996 #1] FATAL -- :   
+F, [2021-10-20T02:57:01.578187 #1] FATAL -- : ActionDispatch::Http::Parameters::ParseError (765: unexpected token at '{
+    "user": {
+        "name": "Gerry Hernandez",
+        "folio": "23021996"
+        "phone:
+    }
+}'):
+F, [2021-10-20T02:57:01.578308 #1] FATAL -- :   
+F, [2021-10-20T02:57:01.578421 #1] FATAL -- : actionpack (5.2.6) lib/action_dispatch/http/parameters.rb:117:in `rescue in parse_formatted_parameters'
+actionpack (5.2.6) lib/action_dispatch/http/parameters.rb:111:in `parse_formatted_parameters'
+actionpack (5.2.6) lib/action_dispatch/http/request.rb:381:in `block in POST'
+rack (2.2.3) lib/rack/request.rb:69:in `fetch'
+rack (2.2.3) lib/rack/request.rb:69:in `fetch_header'
+actionpack (5.2.6) lib/action_dispatch/http/request.rb:380:in `POST'
+actionpack (5.2.6) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (5.2.6) lib/action_controller/metal/params_wrapper.rb:290:in `_wrapper_enabled?'
+actionpack (5.2.6) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (5.2.6) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.6) lib/abstract_controller/base.rb:134:in `process'
+actionpack (5.2.6) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.6) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+activerecord (5.2.6) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2021-10-20T02:57:21.866251 #1]  INFO -- : Started POST "/users" for 172.17.0.1 at 2021-10-20 02:57:21 +0000
+I, [2021-10-20T02:57:21.867140 #1]  INFO -- : Processing by UsersController#create as */*
+I, [2021-10-20T02:57:21.867291 #1]  INFO -- :   Parameters: {"user"=>{"name"=>"Gerry Hernandez", "folio"=>"23021996"}}
+I, [2021-10-20T02:57:21.867635 #1]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"72a7605d-4719-4861-bd27-6f0a29b41da9", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"86", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"172.17.0.1"}
+I, [2021-10-20T02:57:21.867781 #1]  INFO -- : Body: {"user"=>{"name"=>"Gerry Hernandez", "folio"=>"23021996"}, "controller"=>"users", "action"=>"create"}
+D, [2021-10-20T02:57:21.867988 #1] DEBUG -- : Method called: user_params, parameters: none
+D, [2021-10-20T02:57:21.873548 #1] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2021-10-20T02:57:21.873687 #1] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+D, [2021-10-20T02:57:21.874412 #1] DEBUG -- :   [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "folio", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Gerry Hernandez"], ["folio", "23021996"], ["created_at", "2021-10-20 02:57:21.873847"], ["updated_at", "2021-10-20 02:57:21.873847"]]
+D, [2021-10-20T02:57:21.874540 #1] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+D, [2021-10-20T02:57:21.883034 #1] DEBUG -- :   [1m[35m (8.3ms)[0m  [1m[36mcommit transaction[0m
+D, [2021-10-20T02:57:21.883849 #1] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+I, [2021-10-20T02:57:21.885031 #1]  INFO -- : Completed 201 Created in 18ms (Views: 0.9ms | ActiveRecord: 9.2ms)
+
+
+I, [2021-10-19T21:59:18.967387 #40347]  INFO -- : Started POST "/users" for ::1 at 2021-10-19 21:59:18 -0500
+D, [2021-10-19T21:59:19.006239 #40347] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2021-10-19T21:59:19.006696 #40347] DEBUG -- :   ↳ /home/gerardoh/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+I, [2021-10-19T21:59:19.048102 #40347]  INFO -- : Processing by UsersController#create as */*
+I, [2021-10-19T21:59:19.048274 #40347]  INFO -- :   Parameters: {"user"=>{"name"=>"[FILTERED]", "folio"=>"23021996", "password"=>"[FILTERED]"}}
+I, [2021-10-19T21:59:19.048515 #40347]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"78452242-3682-444e-a308-121a851d51c7", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"114", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"::1"}
+I, [2021-10-19T21:59:28.328814 #40347]  INFO -- : Body: {
+    "user": {
+        "name": "Gerry Hernandez",
+        "folio": "23021996",
+        "password": "what"
+    }
+}
+D, [2021-10-19T21:59:28.329920 #40347] DEBUG -- : Method called: user_params, parameters: none
+D, [2021-10-19T21:59:28.330678 #40347] DEBUG -- : Unpermitted parameter: :password
+D, [2021-10-19T21:59:28.348167 #40347] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+D, [2021-10-19T21:59:28.348676 #40347] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+D, [2021-10-19T21:59:28.351998 #40347] DEBUG -- :   [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "folio", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Gerry Hernandez"], ["folio", "23021996"], ["created_at", "2021-10-20 02:59:28.349350"], ["updated_at", "2021-10-20 02:59:28.349350"]]
+D, [2021-10-19T21:59:28.354158 #40347] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+D, [2021-10-19T21:59:28.359959 #40347] DEBUG -- :   [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+D, [2021-10-19T21:59:28.360519 #40347] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+I, [2021-10-19T21:59:28.364893 #40347]  INFO -- : Completed 201 Created in 9316ms (Views: 2.2ms | ActiveRecord: 7.0ms)
+
+
+I, [2021-10-19T22:01:32.971403 #40347]  INFO -- : Started POST "/users" for ::1 at 2021-10-19 22:01:32 -0500
+I, [2021-10-19T22:01:32.993711 #40347]  INFO -- : Processing by UsersController#create as */*
+I, [2021-10-19T22:01:32.993844 #40347]  INFO -- :   Parameters: {"user"=>{"name"=>"[FILTERED]", "folio"=>"23021996", "password"=>"[FILTERED]"}}
+I, [2021-10-19T22:01:32.994091 #40347]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"bc616642-9b1c-4b5b-bf0c-97749a57c7c9", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"114", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"::1"}
+I, [2021-10-19T22:01:32.995297 #40347]  INFO -- : Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-19T22:01:32.995888 #40347] FATAL -- :   
+F, [2021-10-19T22:01:32.995981 #40347] FATAL -- : NoMethodError (undefined method `[]=' for #<StringIO:0x00007fcdcc90d610>):
+F, [2021-10-19T22:01:32.996044 #40347] FATAL -- :   
+F, [2021-10-19T22:01:32.996144 #40347] FATAL -- : app/controllers/users_controller.rb:67:in `log_body'
+I, [2021-10-19T22:01:53.087493 #40347]  INFO -- : Started POST "/users" for ::1 at 2021-10-19 22:01:53 -0500
+I, [2021-10-19T22:01:53.088075 #40347]  INFO -- : Processing by UsersController#create as */*
+I, [2021-10-19T22:01:53.088135 #40347]  INFO -- :   Parameters: {"user"=>{"name"=>"[FILTERED]", "folio"=>"23021996", "password"=>"[FILTERED]"}}
+I, [2021-10-19T22:01:53.088262 #40347]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"8d48b94c-30d6-464b-b4c6-f9f9bdcb3184", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"114", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"::1"}
+I, [2021-10-19T22:01:53.089085 #40347]  INFO -- : Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-19T22:01:53.089400 #40347] FATAL -- :   
+F, [2021-10-19T22:01:53.089449 #40347] FATAL -- : NoMethodError (undefined method `[]=' for #<StringIO:0x00007fcdcceaa988>):
+F, [2021-10-19T22:01:53.089491 #40347] FATAL -- :   
+F, [2021-10-19T22:01:53.089522 #40347] FATAL -- : app/controllers/users_controller.rb:67:in `log_body'
+I, [2021-10-19T22:02:24.164225 #40347]  INFO -- : Started POST "/users" for ::1 at 2021-10-19 22:02:24 -0500
+F, [2021-10-19T22:02:24.191287 #40347] FATAL -- :   
+F, [2021-10-19T22:02:24.191414 #40347] FATAL -- : SyntaxError (/home/gerardoh/misc/sice/app/controllers/users_controller.rb:67: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
+...Body: #{f.filter(request.body)")
+...                              ^
+/home/gerardoh/misc/sice/app/controllers/users_controller.rb:69: unterminated string meets end of file
+/home/gerardoh/misc/sice/app/controllers/users_controller.rb:69: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+F, [2021-10-19T22:02:24.191481 #40347] FATAL -- :   
+F, [2021-10-19T22:02:24.191554 #40347] FATAL -- : app/controllers/users_controller.rb:67: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
+app/controllers/users_controller.rb:69: unterminated string meets end of file
+app/controllers/users_controller.rb:69: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+I, [2021-10-19T22:02:34.136971 #40347]  INFO -- : Started POST "/users" for ::1 at 2021-10-19 22:02:34 -0500
+I, [2021-10-19T22:02:34.153107 #40347]  INFO -- : Processing by UsersController#create as */*
+I, [2021-10-19T22:02:34.153238 #40347]  INFO -- :   Parameters: {"user"=>{"name"=>"[FILTERED]", "folio"=>"23021996", "password"=>"[FILTERED]"}}
+I, [2021-10-19T22:02:34.153586 #40347]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"d2843105-70f9-448b-9ec2-35eeea2994a0", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"114", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"::1"}
+I, [2021-10-19T22:02:34.155417 #40347]  INFO -- : Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-19T22:02:34.156356 #40347] FATAL -- :   
+F, [2021-10-19T22:02:34.156540 #40347] FATAL -- : NoMethodError (undefined method `[]=' for #<StringIO:0x00007fcdcc991960>):
+F, [2021-10-19T22:02:34.156600 #40347] FATAL -- :   
+F, [2021-10-19T22:02:34.156674 #40347] FATAL -- : app/controllers/users_controller.rb:67:in `log_body'
+I, [2021-10-19T22:03:48.611016 #40347]  INFO -- : Started POST "/users" for ::1 at 2021-10-19 22:03:48 -0500
+I, [2021-10-19T22:03:48.628866 #40347]  INFO -- : Processing by UsersController#create as */*
+I, [2021-10-19T22:03:48.628972 #40347]  INFO -- :   Parameters: {"user"=>{"name"=>"[FILTERED]", "folio"=>"23021996", "password"=>"[FILTERED]"}}
+I, [2021-10-19T22:03:48.629178 #40347]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"a92bbcff-aab0-4f0d-874e-ad3fdba9cb1b", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"114", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"::1"}
+I, [2021-10-19T22:05:16.468920 #40347]  INFO -- : Completed 500 Internal Server Error in 87840ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-19T22:05:16.469484 #40347] FATAL -- :   
+F, [2021-10-19T22:05:16.514996 #40347] FATAL -- : NameError (undefined local variable or method `f' for #<UsersController:0x00007fcdc0119f00>):
+F, [2021-10-19T22:05:16.515200 #40347] FATAL -- :   
+F, [2021-10-19T22:05:16.515524 #40347] FATAL -- : app/controllers/users_controller.rb:66:in `log_body'
+I, [2021-10-19T22:05:19.156693 #40347]  INFO -- : Started POST "/users" for ::1 at 2021-10-19 22:05:19 -0500
+I, [2021-10-19T22:05:19.179937 #40347]  INFO -- : Processing by UsersController#create as */*
+I, [2021-10-19T22:05:19.180159 #40347]  INFO -- :   Parameters: {"user"=>{"name"=>"[FILTERED]", "folio"=>"23021996", "password"=>"[FILTERED]"}}
+I, [2021-10-19T22:05:19.180756 #40347]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"bdba1cc9-560d-488f-b44d-a45c27953c8e", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"114", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"::1"}
+I, [2021-10-19T22:05:19.180873 #40347]  INFO -- : Body: {"user"=>{"name"=>"Gerry Hernandez", "folio"=>"23021996", "password"=>"what"}, "controller"=>"users", "action"=>"create"}
+D, [2021-10-19T22:05:19.181053 #40347] DEBUG -- : Method called: user_params, parameters: none
+D, [2021-10-19T22:05:19.181231 #40347] DEBUG -- : Unpermitted parameter: :password
+D, [2021-10-19T22:05:19.190186 #40347] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2021-10-19T22:05:19.190726 #40347] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+D, [2021-10-19T22:05:19.191799 #40347] DEBUG -- :   [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "folio", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Gerry Hernandez"], ["folio", "23021996"], ["created_at", "2021-10-20 03:05:19.191001"], ["updated_at", "2021-10-20 03:05:19.191001"]]
+D, [2021-10-19T22:05:19.193167 #40347] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+D, [2021-10-19T22:05:19.197677 #40347] DEBUG -- :   [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+D, [2021-10-19T22:05:19.198177 #40347] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+I, [2021-10-19T22:05:19.201318 #40347]  INFO -- : Completed 201 Created in 21ms (Views: 1.4ms | ActiveRecord: 5.6ms)
+
+
+I, [2021-10-19T22:09:21.622787 #40347]  INFO -- : Started POST "/users" for ::1 at 2021-10-19 22:09:21 -0500
+I, [2021-10-19T22:09:21.638400 #40347]  INFO -- : Processing by UsersController#create as */*
+I, [2021-10-19T22:09:21.638493 #40347]  INFO -- :   Parameters: {"user"=>{"name"=>"[FILTERED]", "folio"=>"23021996", "password"=>"[FILTERED]"}}
+I, [2021-10-19T22:09:21.638666 #40347]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"4b380cbc-429a-4599-9335-eccba75a7f4c", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"114", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"::1"}
+D, [2021-10-19T22:09:29.738451 #40347] DEBUG -- : Method called: user_params, parameters: none
+D, [2021-10-19T22:09:29.740257 #40347] DEBUG -- : Unpermitted parameter: :password
+D, [2021-10-19T22:09:51.432128 #40347] DEBUG -- : Method called: user_params, parameters: none
+D, [2021-10-19T22:09:51.433657 #40347] DEBUG -- : Unpermitted parameter: :password
+D, [2021-10-19T22:09:51.433939 #40347] DEBUG -- : {"name"=>"Gerry Hernandez", "folio"=>"23021996"}
+D, [2021-10-19T22:10:02.191070 #40347] DEBUG -- : Method called: user_params, parameters: none
+D, [2021-10-19T22:10:02.192210 #40347] DEBUG -- : Unpermitted parameter: :password
+D, [2021-10-19T22:10:02.192452 #40347] DEBUG -- : {"name"=>"Gerry Hernandez", "folio"=>"23021996"}
+I, [2021-10-19T22:13:38.035062 #40347]  INFO -- : Body: {"user"=><ActionController::Parameters {"name"=>"Gerry Hernandez", "folio"=>"23021996", "password"=>"what"} permitted: false>, "controller"=>"users", "action"=>"create"}
+D, [2021-10-19T22:13:38.045342 #40347] DEBUG -- : Method called: user_params, parameters: none
+D, [2021-10-19T22:13:38.051750 #40347] DEBUG -- : Unpermitted parameter: :password
+D, [2021-10-19T22:13:38.068141 #40347] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2021-10-19T22:13:38.068483 #40347] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+D, [2021-10-19T22:13:38.070155 #40347] DEBUG -- :   [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "folio", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Gerry Hernandez"], ["folio", "23021996"], ["created_at", "2021-10-20 03:13:38.068789"], ["updated_at", "2021-10-20 03:13:38.068789"]]
+D, [2021-10-19T22:13:38.071223 #40347] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+D, [2021-10-19T22:13:38.075940 #40347] DEBUG -- :   [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+D, [2021-10-19T22:13:38.076858 #40347] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+I, [2021-10-19T22:13:38.078359 #40347]  INFO -- : Completed 201 Created in 256440ms (Views: 1.1ms | ActiveRecord: 6.2ms)
+
+
+I, [2021-10-19T22:13:40.786064 #40347]  INFO -- : Started POST "/users" for ::1 at 2021-10-19 22:13:40 -0500
+I, [2021-10-19T22:13:40.802550 #40347]  INFO -- : Processing by UsersController#create as */*
+I, [2021-10-19T22:13:40.802703 #40347]  INFO -- :   Parameters: {"user"=>{"name"=>"[FILTERED]", "folio"=>"23021996", "password"=>"[FILTERED]"}}
+I, [2021-10-19T22:13:40.802939 #40347]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"710870c7-ee99-4ef3-9804-9e53d40911ec", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"114", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"::1"}
+I, [2021-10-19T22:13:40.803078 #40347]  INFO -- : Body: {"user"=>{"name"=>"Gerry Hernandez", "folio"=>"23021996", "password"=>"what"}, "controller"=>"users", "action"=>"create", "password"=>"********"}
+D, [2021-10-19T22:13:40.803326 #40347] DEBUG -- : Method called: user_params, parameters: none
+D, [2021-10-19T22:13:40.803603 #40347] DEBUG -- : Unpermitted parameter: :password
+D, [2021-10-19T22:13:40.812244 #40347] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+D, [2021-10-19T22:13:40.812757 #40347] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+D, [2021-10-19T22:13:40.815057 #40347] DEBUG -- :   [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "folio", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Gerry Hernandez"], ["folio", "23021996"], ["created_at", "2021-10-20 03:13:40.813229"], ["updated_at", "2021-10-20 03:13:40.813229"]]
+D, [2021-10-19T22:13:40.816118 #40347] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+D, [2021-10-19T22:13:40.820742 #40347] DEBUG -- :   [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+D, [2021-10-19T22:13:40.820976 #40347] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+I, [2021-10-19T22:13:40.822245 #40347]  INFO -- : Completed 201 Created in 19ms (Views: 0.6ms | ActiveRecord: 5.8ms)
+
+
+I, [2021-10-19T22:20:34.075700 #40347]  INFO -- : Started POST "/users" for ::1 at 2021-10-19 22:20:34 -0500
+I, [2021-10-19T22:20:34.091946 #40347]  INFO -- : Processing by UsersController#create as */*
+I, [2021-10-19T22:20:34.092048 #40347]  INFO -- :   Parameters: {"user"=>{"name"=>"[FILTERED]", "folio"=>"23021996", "password"=>"[FILTERED]"}}
+I, [2021-10-19T22:20:34.092253 #40347]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"c7296b7a-4683-462e-b0a1-1bdcf62959e9", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"114", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"::1"}
+I, [2021-10-19T22:20:34.093155 #40347]  INFO -- : Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-19T22:20:34.093552 #40347] FATAL -- :   
+F, [2021-10-19T22:20:34.093634 #40347] FATAL -- : NoMethodError (undefined method `key' for #<ActionController::Parameters:0x00007fcdc28d7358>
+Did you mean?  key?
+               keys):
+F, [2021-10-19T22:20:34.093683 #40347] FATAL -- :   
+F, [2021-10-19T22:20:34.093731 #40347] FATAL -- : app/controllers/users_controller.rb:70:in `replace_nested_hash_value'
+app/controllers/users_controller.rb:65:in `log_body'
+I, [2021-10-19T22:21:03.106064 #40347]  INFO -- : Started POST "/users" for ::1 at 2021-10-19 22:21:03 -0500
+I, [2021-10-19T22:21:03.118082 #40347]  INFO -- : Processing by UsersController#create as */*
+I, [2021-10-19T22:21:03.118172 #40347]  INFO -- :   Parameters: {"user"=>{"name"=>"[FILTERED]", "folio"=>"23021996", "password"=>"[FILTERED]"}}
+I, [2021-10-19T22:21:03.118340 #40347]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"ca63bab5-4cce-40f0-a640-551298e2b6da", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"114", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"::1"}
+I, [2021-10-19T22:28:15.468931 #40347]  INFO -- : Completed 500 Internal Server Error in 432351ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-19T22:28:15.470847 #40347] FATAL -- :   
+F, [2021-10-19T22:28:15.471251 #40347] FATAL -- : NoMethodError (undefined method `key' for #<ActionController::Parameters:0x00007fcdd80398c0>
+Did you mean?  key?
+               keys):
+F, [2021-10-19T22:28:15.471565 #40347] FATAL -- :   
+F, [2021-10-19T22:28:15.471888 #40347] FATAL -- : app/controllers/users_controller.rb:72:in `replace_nested_hash_value'
+app/controllers/users_controller.rb:65:in `log_body'
+I, [2021-10-19T22:28:18.083582 #40347]  INFO -- : Started POST "/users" for ::1 at 2021-10-19 22:28:18 -0500
+I, [2021-10-19T22:28:18.103607 #40347]  INFO -- : Processing by UsersController#create as */*
+I, [2021-10-19T22:28:18.103845 #40347]  INFO -- :   Parameters: {"user"=>{"name"=>"[FILTERED]", "folio"=>"23021996", "password"=>"[FILTERED]"}}
+I, [2021-10-19T22:28:18.104335 #40347]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"971dc921-3e34-45fc-8ea0-453988a86b6e", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"114", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"::1"}
+I, [2021-10-19T22:28:18.104733 #40347]  INFO -- : Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-19T22:28:18.105273 #40347] FATAL -- :   
+F, [2021-10-19T22:28:18.105377 #40347] FATAL -- : ArgumentError (wrong number of arguments (given 1, expected 3)):
+F, [2021-10-19T22:28:18.105479 #40347] FATAL -- :   
+F, [2021-10-19T22:28:18.105556 #40347] FATAL -- : app/controllers/users_controller.rb:69:in `replace_nested_hash_value'
+app/controllers/users_controller.rb:65:in `log_body'
+I, [2021-10-19T22:28:50.853805 #40347]  INFO -- : Started POST "/users" for ::1 at 2021-10-19 22:28:50 -0500
+I, [2021-10-19T22:28:50.871715 #40347]  INFO -- : Processing by UsersController#create as */*
+I, [2021-10-19T22:28:50.871821 #40347]  INFO -- :   Parameters: {"user"=>{"name"=>"[FILTERED]", "folio"=>"23021996", "password"=>"[FILTERED]"}}
+I, [2021-10-19T22:28:50.872005 #40347]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"861e58b5-873c-493f-b2f0-d028894b778d", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"114", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"::1"}
+I, [2021-10-19T22:28:50.872090 #40347]  INFO -- : Body: {"user"=>{"name"=>"Gerry Hernandez", "folio"=>"23021996", "password"=>"what"}, "controller"=>"users", "action"=>"create"}
+D, [2021-10-19T22:28:50.872213 #40347] DEBUG -- : Method called: user_params, parameters: none
+D, [2021-10-19T22:28:50.872368 #40347] DEBUG -- : Unpermitted parameter: :password
+D, [2021-10-19T22:28:50.878218 #40347] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2021-10-19T22:28:50.878414 #40347] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+D, [2021-10-19T22:28:50.879332 #40347] DEBUG -- :   [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "folio", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Gerry Hernandez"], ["folio", "23021996"], ["created_at", "2021-10-20 03:28:50.878562"], ["updated_at", "2021-10-20 03:28:50.878562"]]
+D, [2021-10-19T22:28:50.879922 #40347] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+D, [2021-10-19T22:28:50.883290 #40347] DEBUG -- :   [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+D, [2021-10-19T22:28:50.883397 #40347] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+I, [2021-10-19T22:28:50.884609 #40347]  INFO -- : Completed 201 Created in 13ms (Views: 0.5ms | ActiveRecord: 4.0ms)
+
+
+I, [2021-10-19T22:29:06.757564 #40347]  INFO -- : Started POST "/users" for ::1 at 2021-10-19 22:29:06 -0500
+I, [2021-10-19T22:29:06.788424 #40347]  INFO -- : Processing by UsersController#create as */*
+I, [2021-10-19T22:29:06.788962 #40347]  INFO -- :   Parameters: {"user"=>{"name"=>"[FILTERED]", "folio"=>"23021996", "password"=>"[FILTERED]"}}
+I, [2021-10-19T22:29:06.789660 #40347]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"cd828586-2dfa-4505-97af-e5c0d09887ca", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"114", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"::1"}
+I, [2021-10-19T22:31:24.008647 #40347]  INFO -- : Body: {"user"=>{"name"=>"Gerry Hernandez", "folio"=>"23021996", "password"=>"what"}, "controller"=>"users", "action"=>"create"}
+D, [2021-10-19T22:31:24.009368 #40347] DEBUG -- : Method called: user_params, parameters: none
+D, [2021-10-19T22:31:24.010422 #40347] DEBUG -- : Unpermitted parameter: :password
+D, [2021-10-19T22:31:24.032236 #40347] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+D, [2021-10-19T22:31:24.033160 #40347] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+D, [2021-10-19T22:31:24.042595 #40347] DEBUG -- :   [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "folio", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Gerry Hernandez"], ["folio", "23021996"], ["created_at", "2021-10-20 03:31:24.040886"], ["updated_at", "2021-10-20 03:31:24.040886"]]
+D, [2021-10-19T22:31:24.042904 #40347] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+D, [2021-10-19T22:31:24.048143 #40347] DEBUG -- :   [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+D, [2021-10-19T22:31:24.049615 #40347] DEBUG -- :   ↳ app/controllers/users_controller.rb:22
+I, [2021-10-19T22:31:24.050445 #40347]  INFO -- : Completed 201 Created in 137261ms (Views: 0.6ms | ActiveRecord: 5.5ms)
+
+
+I, [2021-10-19T22:31:30.628433 #40347]  INFO -- : Started POST "/users" for ::1 at 2021-10-19 22:31:30 -0500
+F, [2021-10-19T22:31:30.647375 #40347] FATAL -- :   
+F, [2021-10-19T22:31:30.647475 #40347] FATAL -- : SyntaxError (/home/gerardoh/misc/sice/app/controllers/users_controller.rb:70: syntax error, unexpected tIDENTIFIER, expecting keyword_then or ';' or '\n'
+... if obj.respond_to?(:key?) keys.select { |key| obj.key?(key)...
+...                           ^~~~
+/home/gerardoh/misc/sice/app/controllers/users_controller.rb:74: syntax error, unexpected keyword_elsif, expecting keyword_end
+      elsif obj.respond_to?(:each)
+      ^~~~~
+/home/gerardoh/misc/sice/app/controllers/users_controller.rb:82: syntax error, unexpected keyword_end, expecting end-of-input):
+F, [2021-10-19T22:31:30.647532 #40347] FATAL -- :   
+F, [2021-10-19T22:31:30.647595 #40347] FATAL -- : app/controllers/users_controller.rb:70: syntax error, unexpected tIDENTIFIER, expecting keyword_then or ';' or '\n'
+app/controllers/users_controller.rb:74: syntax error, unexpected keyword_elsif, expecting keyword_end
+app/controllers/users_controller.rb:82: syntax error, unexpected keyword_end, expecting end-of-input
+I, [2021-10-19T22:31:44.889954 #40347]  INFO -- : Started POST "/users" for ::1 at 2021-10-19 22:31:44 -0500
+I, [2021-10-19T22:31:44.905878 #40347]  INFO -- : Processing by UsersController#create as */*
+I, [2021-10-19T22:31:44.906020 #40347]  INFO -- :   Parameters: {"user"=>{"name"=>"[FILTERED]", "folio"=>"23021996", "password"=>"[FILTERED]"}}
+I, [2021-10-19T22:31:44.906294 #40347]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"faaf5dad-8dfa-4ce5-9d18-4809e41b42cc", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"114", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"::1"}
+I, [2021-10-19T22:31:44.907556 #40347]  INFO -- : Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-19T22:31:44.908046 #40347] FATAL -- :   
+F, [2021-10-19T22:31:44.908150 #40347] FATAL -- : NoMethodError (undefined method `find' for #<ActionController::Parameters:0x00007fcdc1194358>):
+F, [2021-10-19T22:31:44.908209 #40347] FATAL -- :   
+F, [2021-10-19T22:31:44.908268 #40347] FATAL -- : app/controllers/users_controller.rb:76:in `replace_nested_hash_value'
+app/controllers/users_controller.rb:65:in `log_body'
+I, [2021-10-19T22:33:04.123947 #40347]  INFO -- : Started POST "/users" for ::1 at 2021-10-19 22:33:04 -0500
+I, [2021-10-19T22:33:04.140586 #40347]  INFO -- : Processing by UsersController#create as */*
+I, [2021-10-19T22:33:04.140715 #40347]  INFO -- :   Parameters: {"user"=>{"name"=>"[FILTERED]", "folio"=>"23021996", "password"=>"[FILTERED]"}}
+I, [2021-10-19T22:33:04.140920 #40347]  INFO -- : Headers: {"SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.12.6 Llamas in Pajamas", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"POST", "HTTP_VERSION"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "HTTP_USER_AGENT"=>"PostmanRuntime/7.28.4", "HTTP_ACCEPT"=>"*/*", "HTTP_POSTMAN_TOKEN"=>"3c4172f0-63c1-4fca-bda7-ce906410a737", "HTTP_HOST"=>"localhost:3000", "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", "HTTP_CONNECTION"=>"keep-alive", "CONTENT_LENGTH"=>"114", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "PATH_INFO"=>"/users", "REMOTE_ADDR"=>"::1"}
+I, [2021-10-19T22:33:04.141145 #40347]  INFO -- : Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+F, [2021-10-19T22:33:04.141519 #40347] FATAL -- :   
+F, [2021-10-19T22:33:04.141590 #40347] FATAL -- : ActionController::UnfilteredParameters (unable to convert unpermitted parameters to hash):
+F, [2021-10-19T22:33:04.141652 #40347] FATAL -- :   
+F, [2021-10-19T22:33:04.141716 #40347] FATAL -- : app/controllers/users_controller.rb:76:in `replace_nested_hash_value'
+app/controllers/users_controller.rb:65:in `log_body'
