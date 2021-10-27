@@ -13,4 +13,9 @@ pipeline {
             }
         }
     }
+    post {
+      success {
+        echo 'Run second pipeline'
+      }
+    }
 }
