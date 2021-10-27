@@ -4,8 +4,16 @@ one:
   name: MyString
   folio: MyString
   phone: MyString
+  email: "mystring@one.com"
+  password_digest: <%= BCrypt::Password.create('testpassword', cost: 5) %>
 
 two:
   name: MyString
   folio: MyString
   phone: MyString
+  email: "mystring@two.com"
+  password_digest: <%= BCrypt::Password.create('testpassword', cost: 5) %>
+
+sample:
+  email: "example@mail.com"
+  password_digest: <%= BCrypt::Password.create('123123123', cost: 5) %>
