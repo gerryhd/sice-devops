@@ -50,7 +50,7 @@ class UsersController < ApplicationController
     # Only allow a trusted parameter "white list" through.
     def user_params
       logger.debug("Method called: #{__method__}, parameters: none")
-      params.require(:user).permit(:name, :folio, :phone)
+      params.require(:user).permit(:name, :folio, :phone, :email, :password, :password_confirmation)
     end
 
     def log_headers
@@ -62,7 +62,7 @@ class UsersController < ApplicationController
     end
 
     def log_body
-      body_params = replace_nested_hash_value(params, ["password"], "********")
+      body_params = replace_nested_hash_value(params.to_unsafe_h, ["password"], "********")
       logger.info("Body: #{body_params.to_s}")
     end
 
@@ -73,7 +73,7 @@ class UsersController < ApplicationController
         end
       elsif obj.respond_to?(:each)
         r = nil
-        obj.to_h.find{ |*a| r=nested_hash_value(a.last,keys, value) }
+        obj.find{ |*a| r=replace_nested_hash_value(a.last,keys, value) }
         r
       end
       
