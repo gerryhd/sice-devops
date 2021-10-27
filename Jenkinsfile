@@ -9,7 +9,7 @@ pipeline {
         }
         stage('build') {
             steps {
-                sh 'rails test'
+                sh 'bundle exec rails test'
             }
         }
     }
