@@ -4,3 +4,6 @@
 require_relative 'config/application'
 
 Rails.application.load_tasks
+
+require 'ci/reporter/rake/minitest'
+task :minitest => 'ci:setup:minitest'
