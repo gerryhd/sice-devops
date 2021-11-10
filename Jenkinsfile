@@ -1,19 +1,11 @@
 pipeline {
-    agent { docker { image 'ruby:2.5.1' } }
+    agent any
     stages {
         stage('requirements') {
+          agent { docker { image 'ruby:2.5.1' } }
           steps {
             sh 'gem install bundler -v 1.17.3'
-            sh 'docker'
             sh 'bundle install'
-          }
-        }
-
-        stage('test') {
-          environment {
-            RAILS_ENV = 'test'
-          }
-          steps {
             sh 'bundle exec rails db:migrate'
             sh 'bundle exec rake test'
           }
