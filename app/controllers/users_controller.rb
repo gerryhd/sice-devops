@@ -2,6 +2,7 @@ class UsersController < ApplicationController
   before_action :set_user, only: [:show, :update, :destroy]
   before_action :log_headers
   before_action :log_body
+  skip_before_action :authenticate_request, only: :create
 
   # GET /users
   def index
@@ -20,7 +21,13 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
 
     if @user.save
-      render json: @user, status: :created, location: @user
+      command = AuthenticateUser.call(params[:email], params[:password])
+
+      if command.success?
+        render json: { auth_token: command.result }
+      else
+        render json: { error: command.errors }, status: :unauthorized
+      end
     else
       render json: @user.errors, status: :unprocessable_entity
     end
