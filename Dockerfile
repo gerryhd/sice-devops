@@ -12,7 +12,7 @@ COPY . ./
 
 # Expose port 3000 to the Docker host, so we can access it
 # from the outside.
-RUN ["chmod", "+x", "./entrypoint.sh"]
+RUN ["chmod", "755", "./entrypoint.sh"]
 ENTRYPOINT ["./entrypoint.sh"]
 EXPOSE 3000
 
