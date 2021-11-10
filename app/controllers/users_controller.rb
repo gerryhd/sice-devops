@@ -21,7 +21,7 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
 
     if @user.save
-      command = AuthenticateUser.call(params[:email], params[:password])
+      command = AuthenticateUser.call(@user.email, @user.password)
 
       if command.success?
         render json: { auth_token: command.result }
