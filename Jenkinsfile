@@ -1,6 +1,13 @@
 pipeline {
     agent any
     stages {
+        stage('requirements') {
+          steps {
+            sh 'gem install bundler -v 1.17.3'
+            sh 'bundle install'
+          }
+        }
+
         stage('test') {
           environment {
             RAILS_ENV = 'test'
@@ -13,7 +20,9 @@ pipeline {
 
         stage('build') {
             steps {
-              sh "bundle exec rails s"
+              sh "docker build -t sice-${GIT_BRANCH}:${BUILD_NUMBER}"
+              sh "docker run sice-${GIT_BRANCH}:${BUILD_NUMBER} bundle exec rails db:migrate"
+              sh "docker run sice-${GIT_BRANCH}:${BUILD_NUMBER} bundle exec rails s"
             }
         }
     }
