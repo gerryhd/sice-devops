@@ -14,7 +14,7 @@ pipeline {
         stage('build') {
             steps {
               sh "docker build -t sice-${GIT_BRANCH}:${BUILD_NUMBER} ."
-              sh "docker ps -q"
+              sh "docker kill ${docker ps -q}"
               sh "docker run -d -p 3000:3000 sice-${GIT_BRANCH}:${BUILD_NUMBER}"
             }
         }
