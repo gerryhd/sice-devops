@@ -7,6 +7,7 @@ pipeline {
             sh 'bundle install'
           }
         }
+
         stage('test') {
           environment {
             RAILS_ENV = 'test'
@@ -16,6 +17,7 @@ pipeline {
             sh 'bundle exec rake test'
           }
         }
+
         stage('build') {
             steps {
               sh "docker build -t sice-${GIT_BRANCH}:${BUILD_NUMBER}"
