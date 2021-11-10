@@ -20,7 +20,6 @@ pipeline {
 
         stage('build') {
             steps {
-              sh "docker build -t sice-${GIT_BRANCH}:${BUILD_NUMBER}"
               sh "docker run sice-${GIT_BRANCH}:${BUILD_NUMBER} bundle exec rails db:migrate"
               sh "docker run sice-${GIT_BRANCH}:${BUILD_NUMBER} bundle exec rails s"
             }
