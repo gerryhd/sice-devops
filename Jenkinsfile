@@ -21,6 +21,7 @@ pipeline {
     post {
       success {
         echo 'Run second pipeline'
+        build job: 'ReactPipeline', propagate: true, wait: true
       }
     }
 }
