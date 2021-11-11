@@ -15,13 +15,13 @@ pipeline {
             steps {
               sh "docker build -t sice-${GIT_BRANCH}:${BUILD_NUMBER} ."
               sh "docker run -d -p 3000:3000 sice-${GIT_BRANCH}:${BUILD_NUMBER}"
+              build job: 'ReactPipeline', propagate: true, wait: true
             }
         }
     }
     post {
       success {
         echo 'Run second pipeline'
-        build job: 'ReactPipeline', propagate: true, wait: true
       }
     }
 }
