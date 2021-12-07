@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'health', to: 'application#health'
   resources :courses
   resources :careers
   post 'authenticate', to: 'authentication#authenticate'
