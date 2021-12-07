@@ -1,5 +1,7 @@
 class ApplicationController < ActionController::API
   before_action :authenticate_request
+  skip_before_action :authenticate_request, only: :health
+
   attr_reader :current_user
 
   def health
