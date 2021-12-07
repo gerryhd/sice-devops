@@ -5,7 +5,7 @@ class ApplicationController < ActionController::API
   attr_reader :current_user
 
   def health
-    status :ok
+    head :ok
   end
 
   protected
