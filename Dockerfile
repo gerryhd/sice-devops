@@ -9,6 +9,7 @@ RUN bundle install
 
 # Copy the main application.
 COPY . ./
+VOLUME /log
 
 # Expose port 3000 to the Docker host, so we can access it
 # from the outside.
